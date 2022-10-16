@@ -3,13 +3,13 @@ package org.nmqhyt;
 import java.util.ArrayList;
 import java.lang.Integer;
 import org.joda.time.DateTime;
-import org.nmqhyt.Module;
 
 public class Lecturer {
     private String lecturerFullName;
     private DateTime dateOfBirth;
     private Integer id;
     private ArrayList<Module> teachingModules;
+
     private Integer age;
 
 
